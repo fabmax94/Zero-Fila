@@ -22,6 +22,8 @@ public class QueueWidget extends AppWidgetProvider implements OnWidgetHandle {
     private ItemQueueRepository itemQueueRepository;
     private AppWidgetManager appWidgetManager;
     private int appWidgetId;
+    private Context context;
+
     void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
                          int appWidgetId) {
 
@@ -31,6 +33,7 @@ public class QueueWidget extends AppWidgetProvider implements OnWidgetHandle {
         getUserTask.execute(context);
         this.appWidgetManager = appWidgetManager;
         this.appWidgetId = appWidgetId;
+        this.context = context;
     }
 
     void checkQueue(final Client client) {
@@ -39,18 +42,18 @@ public class QueueWidget extends AppWidgetProvider implements OnWidgetHandle {
 
     private void setTextViews(int length, boolean isAttendance) {
         if (length == -1) {
-            views.setTextViewText(R.id.queue_lenght, "Você não está na fila");
+            views.setTextViewText(R.id.queue_lenght, context.getString(R.string.isnt_queue));
         } else if (length == 0) {
             if (isAttendance) {
-                views.setTextViewText(R.id.queue_lenght, "Você está em atendimento");
+                views.setTextViewText(R.id.queue_lenght, context.getString(R.string.is_attendance));
             } else {
-                views.setTextViewText(R.id.queue_lenght, "Você é o próximo da fila");
+                views.setTextViewText(R.id.queue_lenght, context.getString(R.string.is_next));
             }
         } else {
             if (length == 1) {
-                views.setTextViewText(R.id.queue_lenght, "1 pessoa");
+                views.setTextViewText(R.id.queue_lenght, context.getString(R.string.a_person));
             } else {
-                views.setTextViewText(R.id.queue_lenght, length + " pessoas");
+                views.setTextViewText(R.id.queue_lenght, length + " " + context.getString(R.string.people));
             }
         }
         appWidgetManager.updateAppWidget(appWidgetId, views);

@@ -144,8 +144,8 @@ public class ClerkActivity extends AppCompatActivity {
     }
 
     private void setTextViews(int length, boolean isAttendance) {
-        tvAverage.setText(String.valueOf(average / (1000 * 60)) + getString(R.string.minutes));
-        tvAttendance.setText(String.valueOf(average * length / (1000 * 60)) + getString(R.string.minutes));
+        tvAverage.setText(String.valueOf(average / (1000 * 60)) + " " + getString(R.string.minutes));
+        tvAttendance.setText(String.valueOf(average * length / (1000 * 60)) + " " + getString(R.string.minutes));
         TextView queueuLength = findViewById(R.id.queue_lenght);
         TextView line = findViewById(R.id.people_in_line);
         if (length == -1) {
