@@ -1,16 +1,18 @@
 # Zero-Fila
-An Android/IOS application to see what your position in a queue of bank, supermarket and etc.
+An Android application to see what your position in a queue of bank, supermarket and etc.
 
 ## Technologies
 
-To development this web app were used React Native and Firebase.
+This application was developed with Java Android.
+Firebase was used for real-time data storage.
+Room API was used for save data in a local database.
 
 ## Demo
 
-
-<img src="https://firebasestorage.googleapis.com/v0/b/manausmobi.appspot.com/o/images%2Fzerofila_1.png?alt=media&token=0aa5119e-4e07-45db-9c7e-b8179f337d2a" width="400" height="790" style="display: inline">
-<img src="https://firebasestorage.googleapis.com/v0/b/manausmobi.appspot.com/o/images%2Fzerofila_2.png?alt=media&token=170a9050-192d-40b0-b68b-c4cd7946da55" width="400" height="790" style="display: inline">
-<img src="https://firebasestorage.googleapis.com/v0/b/manausmobi.appspot.com/o/images%2Fzerofila_3.png?alt=media&token=e24f1d32-1914-4726-8d5b-a0e970dc30ea" width="400" height="790">
-<img src="https://firebasestorage.googleapis.com/v0/b/manausmobi.appspot.com/o/images%2Fzerofila_4.png?alt=media&token=79192238-bf86-4d63-b37d-52a266a63662" width="400" height="790">
-<img src="https://firebasestorage.googleapis.com/v0/b/manausmobi.appspot.com/o/images%2Fzerofila_5.png?alt=media&token=138a160d-3d3f-42ae-9013-1641bcfb8a46" width="400" height="790">
-<img src="https://firebasestorage.googleapis.com/v0/b/manausmobi.appspot.com/o/images%2Fzerofila_6.png?alt=media&token=c0dc3879-462f-4aae-9ccb-d2df838580d8" width="400" height="790">
+<div style="justify-content: space-between;">
+<img src="https://firebasestorage.googleapis.com/v0/b/zero-fila-b2d92.appspot.com/o/WhatsApp%20Image%202020-09-20%20at%2013.10.52%20(2).jpeg?alt=media&token=e2de9113-c2aa-4ca0-9d9c-9861ce160802" alt="drawing" width="200" style="display: inline-block; margin: 20"/>
+<img src="https://firebasestorage.googleapis.com/v0/b/zero-fila-b2d92.appspot.com/o/WhatsApp%20Image%202020-09-20%20at%2013.13.16.jpeg?alt=media&token=5a8aaa63-baf2-4ba2-ab84-8a1548c5fe8b" alt="drawing" width="200" style="display: inline-block; margin-right: 5px"/>
+  <img src="https://firebasestorage.googleapis.com/v0/b/zero-fila-b2d92.appspot.com/o/WhatsApp%20Image%202020-09-20%20at%2013.10.52%20(1).jpeg?alt=media&token=08a35546-5099-4e49-bbc0-ec68c74a7cee" alt="drawing" width="200" style="display: inline-block; margin-right: 5px"/>
+  <img src="https://firebasestorage.googleapis.com/v0/b/zero-fila-b2d92.appspot.com/o/WhatsApp%20Image%202020-09-20%20at%2013.10.51.jpeg?alt=media&token=b54cad90-453d-4c01-bb13-dbf387cc4e69" alt="drawing" width="200" style="display: inline-block; margin-right: 5px"/>
+  <img src="https://firebasestorage.googleapis.com/v0/b/zero-fila-b2d92.appspot.com/o/WhatsApp%20Image%202020-09-20%20at%2013.10.52.jpeg?alt=media&token=a978fd8b-af34-4eb2-9ced-666f226a501a" alt="drawing" width="200" style="display: inline-block; margin-right: 5px"/>
+  </div>
